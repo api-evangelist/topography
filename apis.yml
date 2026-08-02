@@ -1,22 +1,68 @@
 aid: topography
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topography.png
 name: Topography
-description: Topography is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Topography (Topography Health, Inc.) was a full-stack clinical trials
+  platform that empowered community and private-practice physicians to run clinical
+  drug trials in their local communities across North America, reducing the administrative
+  burden of becoming a clinical trialist. Founded in 2020 by Alexander Saint-Amand,
+  Mac Parish, and Andrew Kirchner and based in New York and Los Angeles, the company
+  launched in January 2022 with $27.5M in funding, including a $21.5M Series A led
+  by Bain Capital Ventures and Andreessen Horowitz (a16z). In 2026 Topography Health''s
+  Site Business Unit was acquired by FOMAT Medical Research, and the company''s public
+  site is now a single-page acquisition announcement. Topography was a B2B clinical-research
+  SaaS, not a developer-facing API company: no public developer portal, API documentation,
+  OpenAPI, SDKs, or other machine-readable API surface was ever published, and none
+  exists today.'
 url: https://raw.githubusercontent.com/api-evangelist/topography/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Bain Capital Ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: 'Topography Health''s Site Business Unit acquired by FOMAT Medical Research
+  (2026); public site is now an acquisition announcement. No public API surface.'
+x-founded: '2020'
+x-founders:
+- Alexander Saint-Amand
+- Mac Parish
+- Andrew Kirchner
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Clinical Trials
+- Clinical Research
+- Healthcare
+- Life Sciences
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.jointopo.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/topographyhealth
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
