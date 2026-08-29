@@ -36,6 +36,8 @@ description: 'Topography (Topography Health, Inc.) was a full-stack clinical tri
   OpenAPI, SDKs, or other machine-readable API surface was ever published, and none
   exists today.'
 url: https://raw.githubusercontent.com/api-evangelist/topography/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
